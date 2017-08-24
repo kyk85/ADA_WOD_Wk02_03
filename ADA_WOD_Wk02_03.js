@@ -15,7 +15,6 @@ function isPrime(){
 	for (i=2; i<x; i++) {
 	  //if (x%i==0) return false;
 		if (x%i==0) {
-		var divis=i
 		document.getElementById('answer').innerHTML = x + " is not a Prime number!";
 		document.getElementById('divisible').innerHTML = x + " is divisible by " + i;
 		return   																	// if at any point in the loop x becomes divisible by i, end the loop and return false
